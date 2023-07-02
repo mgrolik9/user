@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.2">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/profileImage"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:layout_centerVertical="true"
+    android:src="@drawable/personal1" />
+
+    <ImageView
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginRight="5dp"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/phonecall" />
+
+    <TextView
+    android:id="@+id/nameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/profileImage"
+    android:text="Uchenna Nnodim"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:fontPath="fonts/GlacialIndifference-Bold.ttf" />
+
+    <TextView
+    android:id="@+id/placeTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_toRightOf="@+id/profileImage"
+    android:layout_below="@+id/nameTextView"
+    android:text="New Jersey, USA" />
+
+    <ImageView
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginRight="5dp"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/phonecall" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_toRightOf="@+id/profileImage"
+    android:layout_below="@+id/placeTextView"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/star"
+        android:tint="@color/colorOrange"
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+
+    <ImageView
+        android:src="@drawable/star"
+        android:tint="@color/colorOrange"
+        android:layout_marginLeft="3dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+
+    <ImageView
+        android:src="@drawable/star"
+        android:tint="@color/colorOrange"
+        android:layout_marginLeft="3dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+
+    <ImageView
+        android:src="@drawable/star"
+        android:tint="@color/colorOrange"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="3dp" />
+
+    <ImageView
+        android:src="@drawable/star"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="3dp" />
+
+</LinearLayout>
+
+</RelativeLayout>
+     
+    </RelativeLayout>
+
+</LinearLayout>
